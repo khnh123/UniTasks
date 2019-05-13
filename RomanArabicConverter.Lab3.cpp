@@ -82,6 +82,7 @@ int main()
 start:
 cout << "Roman To Arabic (Type: 1)"<< endl;
 cout << "Arabic To Roman (Type: 2)" << endl;
+cout << "Exit (Type: 3)" << endl;
 cout << "Type: "; cin >>a;
 switch (a){
 case 1: RomantoArabic(); break;
